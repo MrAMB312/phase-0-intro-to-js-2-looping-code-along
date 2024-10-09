@@ -7,11 +7,9 @@ function writeCards(names, event) {
     return messages;
 }
 
-writeCards(["Alex", "Drew", "Josh"], "birthday");
-
-function countDown() {
-    let countdown = 10;
-    while (countdown >= 0) {
-        console.log(countdown--);
+function countDown(i) {
+    while (i >= 0) {
+        console.log(i);
+        i--;
     }
 }
